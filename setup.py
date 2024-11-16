@@ -43,6 +43,7 @@ setup(
     ],
     description="A Python library for the MythX platform",
     install_requires=requirements,
+    python_requires=">=3.6,<4",
     license="MIT license",
     long_description=readme + "\n\n" + history,
     include_package_data=True,
@@ -53,6 +54,6 @@ setup(
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/dmuhs/pythx",
-    version="1.7.1",
+    version="1.7.3",
     zip_safe=False,
 )
